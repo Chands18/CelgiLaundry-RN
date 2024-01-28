@@ -17,9 +17,9 @@ const KarpetPage = () => {
         <Image source={Carpet} />
         <View>
           <Text style={{color: 'black', fontWeight: 'bold', fontSize: 19}}>
-            Baju
+            Medium
           </Text>
-          <Text style={{color: 'black'}}>Rp 15.000</Text>
+          <Text style={{color: 'black'}}>Rp 19.000/Meter - 7 hari</Text>
         </View>
         <Button size="sm" width="16" height="10">
           PILIH
@@ -29,9 +29,9 @@ const KarpetPage = () => {
         <Image source={Carpet} />
         <View>
           <Text style={{color: 'black', fontWeight: 'bold', fontSize: 19}}>
-            Jaket
+            Medium
           </Text>
-          <Text style={{color: 'black'}}>Rp 15.000</Text>
+          <Text style={{color: 'black'}}>Rp 25.000/Meter - 5 hari</Text>
         </View>
         <Button size="sm" width="16" height="10">
           PILIH
@@ -41,9 +41,9 @@ const KarpetPage = () => {
         <Image source={Carpet} />
         <View>
           <Text style={{color: 'black', fontWeight: 'bold', fontSize: 19}}>
-            Celana
+            Lebar
           </Text>
-          <Text style={{color: 'black'}}>Rp 15.000</Text>
+          <Text style={{color: 'black'}}>Rp 27.000/Pcs - 3 hari</Text>
         </View>
         <Button size="sm" width="16" height="10">
           PILIH
@@ -53,10 +53,9 @@ const KarpetPage = () => {
         <Image source={Carpet} />
         <View>
           <Text style={{color: 'black', fontWeight: 'bold', fontSize: 19}}>
-            Pakaian
+            Bulu
           </Text>
-          <Text style={{color: 'black'}}>Reguler Rp 6.000/kg</Text>
-          <Text style={{color: 'black'}}>Express Rp 12.000/kg</Text>
+          <Text style={{color: 'black'}}>Rp 20.000/Pcs - 5 hari</Text>
         </View>
         <Button size="sm" width="16" height="10">
           PILIH

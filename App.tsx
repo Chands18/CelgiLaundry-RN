@@ -9,12 +9,12 @@ const MainApp = () => {
   // const {isLoading} = useSelector((state) => state.globalReducer);
   return (
     <NavigationContainer>
-        <Router />
-        {/* <FlashMessage position="top" />
+      <Router />
+      {/* <FlashMessage position="top" />
         {isLoading && <Loading />} */}
     </NavigationContainer>
-  )
-}
+  );
+};
 
 const App = () => {
   useEffect(() => {
@@ -22,7 +22,7 @@ const App = () => {
   }, []);
   return (
     <NativeBaseProvider>
-      <MainApp/>
+      <MainApp />
     </NativeBaseProvider>
   );
 };

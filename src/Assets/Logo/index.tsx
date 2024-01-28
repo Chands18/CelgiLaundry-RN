@@ -10,5 +10,26 @@ import Shirt1 from './shirt1.png';
 import Hoodie from './hoodie.png';
 import Pants from './pants.png';
 import Pakaian from './Pakaian.png';
+import HomeNav from './HomeNav.png';
+import PesananNav from './PesananNav.png';
+import AkunNav from './PesananNav.png';
+import ProfilePict from './profilePict.jpg';
 
-export { Logo1, WashMachine, SteamIron, Carpet,Towel,Shoe,Bear, ShopCart, Shirt1,Hoodie, Pants, Pakaian };
+export {
+  Logo1,
+  WashMachine,
+  SteamIron,
+  Carpet,
+  Towel,
+  Shoe,
+  Bear,
+  ShopCart,
+  Shirt1,
+  Hoodie,
+  Pants,
+  Pakaian,
+  HomeNav,
+  PesananNav,
+  AkunNav,
+  ProfilePict,
+};

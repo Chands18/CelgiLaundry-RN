@@ -34,11 +34,15 @@ const HomePage = ({ navigation }: {navigation: any}) => {
         </View>
         <View style={{margin: 10}}/>
         <HStack space={3} justifyContent="center" height={115}>
-          <TouchableOpacity onPress={() => navigation.navigate('Order')}>
+          <TouchableOpacity onPress={() => navigation.navigate('BedCover')}>
             <Center size="110" rounded="lg" shadow={3} style={{ backgroundColor: '#4CB9E7' }} ><Image source={Towel} style={styles.imgStyle2} /></Center>
           </TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Sepatu')}>
           <Center size="110" rounded="lg" shadow={3} style={{ backgroundColor: '#4CB9E7' }} ><Image source={Shoe} style={styles.imgStyle2} /></Center>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Boneka')}>
           <Center size="110" rounded="lg" shadow={3} style={{ backgroundColor: '#4CB9E7' }} ><Image source={Bear} style={styles.imgStyle2} /></Center>
+          </TouchableOpacity>
         </HStack>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
           <Text style={styles.text2}>Bed Cover</Text>
