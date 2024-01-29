@@ -15,12 +15,9 @@ import KarpetPage from '../screens/KarpetPage';
 import BedCoverPage from '../screens/BedCoverPage';
 import SepatuPage from '../screens/SepatuPage';
 import BonekaPage from '../screens/BonekaPage';
-import { BottomNav } from '../components';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Icon from 'react-native-ionicons';
-import { AkunNav, HomeNav } from '../Assets';
-import { Image } from 'react-native';
 import EditAkunPage from '../screens/EditAkunPage';
+import KeranjangPage from '../screens/KeranjangPage';
 
 
 const Tab = createBottomTabNavigator();
@@ -79,6 +76,7 @@ const Router = () => {
       <Stack.Screen name="Sepatu" component={SepatuPage} />
       <Stack.Screen name="Boneka" component={BonekaPage} />
       <Stack.Screen name="EditAkun" component={EditAkunPage} />
+      <Stack.Screen name="Keranjang" component={KeranjangPage} />
     </Stack.Navigator>
   );
 };

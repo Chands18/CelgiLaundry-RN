@@ -9,7 +9,7 @@ const SplashPage = ({ navigation } : {navigation: any}) => {
     useEffect(() => {
         setTimeout(() => {
             navigation.replace('register');
-        }, 9000);
+        }, 3000);
     }, [navigation]);
 
     return (
