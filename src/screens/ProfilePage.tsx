@@ -1,8 +1,9 @@
+/* eslint-disable react-native/no-inline-styles */
 /* eslint-disable prettier/prettier */
 import { Image, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import { ArrowBackIcon } from 'native-base';
-import { ProfilePict, ShopCart } from '../Assets';
+import { ProfilePict } from '../Assets';
+import { Button, VStack } from 'native-base';
 
 const ProfilePage = () => {
   return (
@@ -17,11 +18,22 @@ const ProfilePage = () => {
           <Image source={ProfilePict} style={styles.photocontainer} />
         </View>
       </View>
-      <View style={{ flexDirection:'column' }}>
-        <Text style={{ color: 'black', fontSize: 20, fontWeight: 'bold' }}>Akun Saya</Text>
-        <Text style={{ color: 'black', fontSize: 20, fontWeight: 'bold' }}>Ubah Kata Sandi</Text>
-        <Text style={{ color: 'black', fontSize: 20, fontWeight: 'bold' }}>Keluar Akun</Text>
+      <View style={{ flexDirection: 'column', justifyContent: 'center', padding: 20, marginTop: 30 }}>
+        <Button>Akun Saya</Button>
+        <Button>Akun Saya</Button>
+        <Button>Akun Saya</Button>
       </View>
+      <VStack space={4} alignItems="center">
+        <Button size="24">
+          Akun Saya
+        </Button>
+        <Button size="24">
+        Ubah Kata Sandi
+        </Button>
+        <Button size={"lg"}>
+        Keluar Akun
+        </Button>
+      </VStack>
     </View>
   );
 };
