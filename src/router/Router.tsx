@@ -20,6 +20,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-ionicons';
 import { AkunNav, HomeNav } from '../Assets';
 import { Image } from 'react-native';
+import EditAkunPage from '../screens/EditAkunPage';
 
 
 const Tab = createBottomTabNavigator();
@@ -77,6 +78,7 @@ const Router = () => {
       <Stack.Screen name="BedCover" component={BedCoverPage} />
       <Stack.Screen name="Sepatu" component={SepatuPage} />
       <Stack.Screen name="Boneka" component={BonekaPage} />
+      <Stack.Screen name="EditAkun" component={EditAkunPage} />
     </Stack.Navigator>
   );
 };

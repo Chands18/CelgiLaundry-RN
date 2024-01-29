@@ -5,7 +5,7 @@ import React from 'react';
 import { ProfilePict } from '../Assets';
 import { Button, VStack } from 'native-base';
 
-const ProfilePage = () => {
+const ProfilePage = ({ navigation }: {navigation: any}) => {
   return (
     <View style={{ flex: 1 }}>
       <View style={styles.header}>
@@ -19,7 +19,7 @@ const ProfilePage = () => {
         </View>
       </View>
       <View style={{ flexDirection: 'column', justifyContent: 'center', padding: 20, marginTop: 30 }}>
-        <Button style={styles.btn}>Akun Saya</Button>
+        <Button style={styles.btn} onPress={() => navigation.navigate('EditAkun')}>Akun Saya</Button>
         <Button style={styles.btn}>Ubah Kata Sandi</Button>
         <Button style={styles.btn}>Keluar Akun</Button>
       </View>
