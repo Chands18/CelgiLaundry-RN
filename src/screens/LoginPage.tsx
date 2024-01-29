@@ -12,7 +12,7 @@ const LoginPage = ({navigation}: {navigation: any}) => {
       </View>
       <Stack space={4} w="100%" maxW="300px" mx="auto">
         <Text style={styles.title}>Nomor Telepon</Text>
-        <Input variant="filled" placeholder="John Doe" />
+        <Input variant="filled" placeholder="+62" />
         <Text style={styles.title}>Kata Sandi</Text>
         <Input variant="filled" placeholder="xxx" />
       </Stack>

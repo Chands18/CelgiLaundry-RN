@@ -19,21 +19,10 @@ const ProfilePage = () => {
         </View>
       </View>
       <View style={{ flexDirection: 'column', justifyContent: 'center', padding: 20, marginTop: 30 }}>
-        <Button>Akun Saya</Button>
-        <Button>Akun Saya</Button>
-        <Button>Akun Saya</Button>
+        <Button style={styles.btn}>Akun Saya</Button>
+        <Button style={styles.btn}>Ubah Kata Sandi</Button>
+        <Button style={styles.btn}>Keluar Akun</Button>
       </View>
-      <VStack space={4} alignItems="center">
-        <Button size="24">
-          Akun Saya
-        </Button>
-        <Button size="24">
-        Ubah Kata Sandi
-        </Button>
-        <Button size={"lg"}>
-        Keluar Akun
-        </Button>
-      </VStack>
     </View>
   );
 };
@@ -71,4 +60,7 @@ const styles = StyleSheet.create({
     borderRadius: 90,
     backgroundColor: '#F0F0F0',
   },
+  btn: {
+    marginTop: 15,
+  }
 });
