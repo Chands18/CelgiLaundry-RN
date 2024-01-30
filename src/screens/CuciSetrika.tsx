@@ -1,9 +1,10 @@
+/* eslint-disable react-native/no-inline-styles */
 import {StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react';
 import {ArrowBackIcon, Button} from 'native-base';
 import {Hoodie, Pakaian, Pants, Shirt1, ShopCart} from '../Assets';
 
-const CuciSetrika = () => {
+const CuciSetrika = ({navigation}: {navigation: any}) => {
   return (
     <View style={{flex: 1}}>
       <View style={styles.header}>
@@ -63,7 +64,11 @@ const CuciSetrika = () => {
         </Button>
       </View>
       <View style={{marginTop: 100, alignItems: 'center'}}>
-        <Button size="lg" width="48" height="16">
+        <Button
+          size="lg"
+          width="48"
+          height="16"
+          onPress={() => navigation.navigate('Maps')}>
           Lanjut
         </Button>
       </View>

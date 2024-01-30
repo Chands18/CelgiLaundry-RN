@@ -18,6 +18,7 @@ import BonekaPage from '../screens/BonekaPage';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import EditAkunPage from '../screens/EditAkunPage';
 import KeranjangPage from '../screens/KeranjangPage';
+import MapsPage from '../screens/MapsPage';
 
 
 const Tab = createBottomTabNavigator();
@@ -77,6 +78,7 @@ const Router = () => {
       <Stack.Screen name="Boneka" component={BonekaPage} />
       <Stack.Screen name="EditAkun" component={EditAkunPage} />
       <Stack.Screen name="Keranjang" component={KeranjangPage} />
+      <Stack.Screen name="Maps" component={MapsPage} />
     </Stack.Navigator>
   );
 };
